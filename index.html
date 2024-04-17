@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi página WEB</title>
 </head>
-<body>
-    <h1>Bienvenidos a nuestra Verduleria Online</h1>
+<>
+    <h1 id="arriba">Bienvenidos a nuestra Verduleria Online</h1>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et adipisci aut totam soluta nobis mollitia, cumque dolorum tempora cum consectetur. Excepturi veritatis vitae iste. Harum obcaecati quod consectetur culpa dolores?</p>
-    <h2>Acá encontrarás nuestros servicios:</h2>
+    <h2>Aqui encontrarás nuestros productos:</h2>
     <ol>
         <li>Frutas:</li>
         <img src="https://static.eldiario.es/clip/2c9cd88d-f330-4895-ad86-cfdef8c65f28_16-9-aspect-ratio_default_0.jpg" alt="Frutas frecas" width="500" height="300">
@@ -17,7 +17,80 @@
         <li>Frutos secos:</li>
         <img src="https://mejorconsalud.as.com/wp-content/uploads/2013/11/caracteristicas-frutos-secos.jpg" alt="Los más ricos" width="500" height="300">
     </ol>
-        <h3>Tenemos la más amplia variedad en Frutas, Verduras y Frutos secos del mercado! Y al mejor precio</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum eum odit odio, fugiat commodi maiores? Commodi, vitae. Rem repellat fugit provident optio ex hic molestiae quam? Totam officia culpa rerum.</p>
+    <br>
+        <h3>Variedad en Frutas:</h3>
+        <table border="1">
+            <tr>
+                <th>Nombre</th>
+                <th>En Stock</th> <!-- Para agregar otra sessión -->
+                <th>Precio Kg</th>
+            </tr>
+            <tr>
+                <td>Banana</td>
+                <td rowspan="3">Sin Stock</td>
+            </tr>
+            <tr>
+                <td>Manzana</td>
+            </tr>
+            <tr>
+                <td>Pera</td>
+            </tr>
+        </table>
+        <h3>Las Verduras más económicas:</h3>
+        <table border="1">
+            <tr>
+                <th>Nombre</th>
+                <th>En Stock</th>
+                <th colspan="2">Precio 1/2kg - 1kg</th>
+            </tr>
+            <tr>
+                <td>Lechuga</td>
+                <td>Si</td>
+                <td>$700</td>
+                <td>$900</td>
+            </tr>
+            <tr>
+                <td>Tomate</td>
+                <td>Si</td>
+                <td>$600</td>
+                <td>$800</td>
+            </tr>
+            <tr>
+                <td>Rúcula</td>
+                <td>Si</td>
+                <td>$400</td>
+                <td>$700</td>
+            </tr>
+        </table>
+        <h3>Los mejores Frutos secos:</h3>
+        <table border="1">
+            <tr>
+                <th>Nombre</th>
+                <th>En Stock</th>
+                <th>Precio Kg</th>
+            </tr>
+            <tr>
+                <td>Lechuga</td>
+                <td>No</td>
+                <td>$700</td>
+            </tr>
+            <tr>
+                <td>Tomate</td>
+                <td>Si</td>
+                <td>$900</td>
+            </tr>
+            <tr>
+                <td>Rúcula</td>
+                <td>No</td>
+                <td>$400</td>
+            </tr>
+        </table>
+        <!-- Texto con etiquetas <i>, <u> y <strong> -->
+        <p>Lorem ipsum dolor sit amet <strong>consectetur adipisicing</strong> elit. Ipsum eum odit odio, fugiat commodi maiores? <i>Commodi, vitae</i>. Rem repellat fugit <u>provident optio</u> ex hic molestiae quam? Totam officia culpa rerum.</p>
+
+    <h4>Donde compramos nuestros productos?</h4>
+    <a href="https://www.mercadocentral.gob.ar/" target="_blank">Mercado Central</a>
+    <p><a href="#arriba">Volver arriba</a></p>
+    <button type="button"><a href="#arriba">Volver arriba</a></button>
 </body>
 </html>
