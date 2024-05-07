@@ -1,37 +1,52 @@
+body {
+    height: 100vb;
+    display: flex;
+    flex-direction: column;
+}
+
 .header {
     padding: 0;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header img {
+    margin: 10px;
+    padding: 0;
+    display: inline-block;
+    background-color: #a0c0d6;
 }
 
 .navbar {
-    background-color: lightgrey;
-    display: inline-block;
+    background-color: #a0c0d6;
     width: 100%;
 }
 
 .navbar ul {
     padding: 0;
-    display: flex;  
-    justify-content: center;
+    display: flex; 
+    list-style: none;
+    justify-content: right;
 }
 
 .navbar li {
     list-style: none;
-    margin: 4px;
+    margin: 10px;
+    padding: 0;
 }
 
 .horarios {
     padding: 15px;
     font-family: sans-serif;
     font-style: italic;
-    color: rgb(12, 67, 86);
-
+    color: #133463;
 }
 
 .lunesviernes, .sabadodomingo, .feriado {
     font-family: sans-serif;
     font-size: 20px;
-    color: rgb(17, 152, 197);
+    color: #43597d;
 }
 
 .hora {
@@ -45,7 +60,10 @@
     margin: 10px;
 }
 
-.footer {
-    padding: 20px;
-    margin: 0;
+footer {
+    background-color: #a0c0d6;
+    width: 100%;
+    margin-top: auto;
+    display: grid;
+    place-items: center;
 }
