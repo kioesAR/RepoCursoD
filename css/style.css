@@ -1,39 +1,6 @@
 body {
     height: 100vb;
-    display: flex;
     flex-direction: column;
-}
-
-.header {
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.header img {
-    margin: 10px;
-    padding: 0;
-    display: inline-block;
-    background-color: #a0c0d6;
-}
-
-.navbar {
-    background-color: #a0c0d6;
-    width: 100%;
-}
-
-.navbar ul {
-    padding: 0;
-    display: flex; 
-    list-style: none;
-    justify-content: right;
-}
-
-.navbar li {
-    list-style: none;
-    margin: 10px;
-    padding: 0;
 }
 
 .horarios {
@@ -53,11 +20,6 @@ body {
     font-family: sans-serif;
     font-style: italic;
     text-align: center;
-}
-
-.button {
-    font-size: 15px;
-    margin: 10px;
 }
 
 footer {
